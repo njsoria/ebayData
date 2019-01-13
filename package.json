@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node ./bin/www"
   },
   "repository": {
     "type": "git",
@@ -25,9 +25,15 @@
   },
   "homepage": "https://github.com/njsoria/ebayData#readme",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "debug": "^4.1.1",
     "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "http-errors": "^1.7.1",
     "knex": "^0.16.3",
+    "morgan": "^1.9.1",
     "mysql": "^2.16.0",
+    "pug": "^2.0.3",
     "request": "^2.88.0"
   },
   "devDependencies": {
