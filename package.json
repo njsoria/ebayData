@@ -25,20 +25,9 @@
   },
   "homepage": "https://github.com/njsoria/ebayData#readme",
   "dependencies": {
-    "cookie-parser": "^1.4.3",
-    "debug": "^4.1.1",
-    "express": "^4.16.4",
-    "express-validator": "^5.3.1",
-    "http-errors": "^1.7.1",
-    "knex": "^0.16.3",
-    "morgan": "^1.9.1",
-    "mysql": "^2.16.0",
-    "pug": "^2.0.3",
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "eslint": "^5.12.0",
-    "mocha": "^5.2.0",
-    "supertest": "^3.3.0"
+    "eslint": "^5.12.0"
   }
 }
