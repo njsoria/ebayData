@@ -4,7 +4,8 @@
   "description": "query ebay api and find information on listings",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +29,8 @@
     "knex": "^0.16.3",
     "mysql": "^2.16.0",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.0"
   }
 }
